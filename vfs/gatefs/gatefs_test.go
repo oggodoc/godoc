@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/gatefs"
+	"github.com/oggodoc/godoc/vfs"
+	"github.com/oggodoc/godoc/vfs/gatefs"
 )
 
 func TestRootType(t *testing.T) {
